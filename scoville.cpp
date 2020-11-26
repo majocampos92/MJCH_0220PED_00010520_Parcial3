@@ -13,8 +13,8 @@ struct Pimiento{
 Pimiento solicitarDato(){
     Pimiento unPimiento;
     int opcion;
-    //cin.ignore();
     cout << "Nombre del pimiento: ";
+    cin.ignore();
     getline(cin, unPimiento.nombre);
     do{
         cout << "Shu: ";
